@@ -8,3 +8,146 @@ body{
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
 }
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.box{
+    height: 80%;
+    width: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: white;
+    box-shadow: hsla(214, 17%, 51%, 0.582)0rem 0rem 3rem ;
+}
+
+/* Imagen */
+.box__img{
+    height: 15rem;
+    width: 100%;
+}
+
+/* Informacion */
+
+.texto{
+    padding: 2rem;
+}
+
+.texto h4{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.texto p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    color: hsl(214, 17%, 51%);
+}
+
+.perfil{
+    padding: 0rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil__persona{
+    display: flex;
+    align-items: center;
+}
+
+.perfil__persona img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+}
+
+.datos h6{
+    margin-bottom: .5rem;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.datos p{
+    margin: 0;
+    letter-spacing:.1rem;
+    color: hsl(214, 17%, 51%);
+}
+
+.perfil__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%
+}
+
+.perfil__icono .flecha{
+    height: 1.2rem;
+    width: 1.5rem;
+    color: hsl(214, 17%, 51%);
+}
+
+.share{
+    padding: 1rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(217, 19%, 35%);
+}
+
+.share__media{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.share__media h5{
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+    margin: .8rem 0 0 0;
+}
+
+.share__media ion-icon{
+    height: 1.8rem;
+    width: 1.8rem;
+    margin: .5rem 1rem 0 0;
+    color: white;
+}
+
+.share__media--icono{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: hsl(214, 17%, 51%);
+}
+
+.share__media--icono .flecha{
+    margin: .5rem .5rem .5rem .5rem;
+}
+
+.desaparecer{
+    display: none;
+}
